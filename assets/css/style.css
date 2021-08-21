@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
+
+
+/* Start style nav */
+
+nav .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(5, 5, 5, 0.925);
+}
+
+.nav-bar .nav-tilte h3 {
+    padding: 0 20px;
+    color: rgba(240, 248, 255, 0.808);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-bar .nav-btn {
+    padding: 5px 10px;
+}
+
+.nav-bar .nav-btn .btn1 {
+    border: 1px solid;
+    border-color: rgba(116, 116, 116, 0.733);
+    border-radius: 4px;
+    background-color: rgba(5, 5, 5, 0.925);
+    padding: 12px 15px;
+}
+
+.nav-bar .nav-btn .btn1 .like {
+    background-color: rgb(40, 108, 255);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar .nav-btn .btn1 .twitter {
+    background-color: rgb(29, 172, 238);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar .nav-btn .btn2 {
+    border: 1px solid;
+    border-color: rgba(116, 116, 116, 0.733);
+    border-radius: 4px;
+    background-color: rgba(5, 5, 5, 0.925);
+    padding: 13px 18px;
+}
+
+.nav-bar .nav-btn .btn2 .back {
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 15px;
+}
+
+.nav-bar .nav-btn .btn3 {
+    border: 1px solid;
+    border-color: rgba(116, 116, 116, 0.733);
+    border-radius: 4px;
+    background-color: rgba(247, 100, 74, 0.836);
+    padding: 13px 20px;
+}
+
+.nav-bar .nav-btn .btn3 .down {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-bar .nav-btn .btn3 .span-down {
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 15px;
+}
+
+
+/* End style nav */
+
+
+/* Start style aside and main */
+
+.main {
+    float: right;
+    height: auto;
+    background: rgba(0, 0, 0, 0.884);
+    width: 80%;
+}
+
+.sidebar {
+    float: left;
+    height: 626px;
+    background: rgb(41, 45, 49);
+    width: 20%;
+}
+
+aside .asid-container {
+    text-align: right;
+    padding: 40px 30px;
+    color: white;
+}
+
+aside .asid-container .asid-title h4 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+aside .asid-container .asid-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2px;
+    color: rgb(88, 88, 88);
+}
+
+aside .asid-container .asid-liens {
+    padding: 15px 0;
+}
+
+aside .asid-container .asid-liens ul li {
+    list-style: none;
+}
+
+aside .asid-container .asid-liens a {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+aside .asid-container .asid-liens a:hover {
+    border: 1px solid;
+    padding: 10px 10px;
+}
