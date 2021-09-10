@@ -106,7 +106,7 @@ nav .nav-bar {
 
 .sidebar {
     float: left;
-    height: 700px;
+    height: 3475px;
     background: rgb(41, 45, 49);
     width: 20%;
 }
@@ -155,7 +155,8 @@ aside .asid-container .asid-liens #fonte:hover {
 }
 
 aside .asid-container .asid-foot {
-    padding: 150px 20px;
+    padding: 0 20px;
+    margin-top: 2900px;
 }
 
 aside .asid-container .asid-foot a i {
@@ -247,24 +248,261 @@ section .sect-portfolio .sect-2-para p {
     font-weight: 100;
 }
 
-section .sect-portfolio .sect-img {
+section .sect-portfolio .select-img1 {
+    padding: 10px 40px;
     margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-section .sect-portfolio .sect-img .sect-img-1 img {
-    width: 280px;
+section .sect-portfolio .select-img1 .sect-phrase {
+    border: 1px solid;
+    border-color: rgb(20, 20, 20);
+    width: 300px;
+    height: auto;
+    padding: 30px 0;
+    background-color: rgb(20, 20, 20);
+    color: rgb(117, 117, 117);
+    text-align: center;
+    margin-top: -5px;
+}
+
+section .sect-portfolio .select-img1 .sect-img-1 img {
+    width: 300px;
     height: auto;
 }
 
-section .sect-portfolio .sect-img .sect-img-1 .sect-phrase {
+section .sect-portfolio .select-img1 .sect-img-2 img {
+    width: 300px;
+    height: auto;
+}
+
+section .sect-portfolio .select-img1 .sect-img-3 img {
+    width: 300px;
+    height: auto;
+}
+
+section .sect-portfolio .select-img2 {
+    padding: 10px 40px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .sect-portfolio .select-img2 .sect-phrase {
     border: 1px solid;
-    border-color: black;
-    width: 280px;
-    height: 10px;
+    border-color: rgb(20, 20, 20);
+    width: 300px;
+    height: auto;
     padding: 30px 0;
-    background-color: rgb(0, 109, 143);
+    background-color: rgb(20, 20, 20);
     color: rgb(117, 117, 117);
+    text-align: center;
+    margin-top: -5px;
+}
+
+section .sect-portfolio .select-img2 .sect-img-4 img {
+    margin-top: -110px;
+    width: 300px;
+    height: auto;
+}
+
+section .sect-portfolio .select-img2 .sect-img-5 img {
+    width: 300px;
+    height: auto;
+}
+
+section .sect-portfolio .select-img2 .sect-img-6 img {
+    margin-top: -160px;
+    width: 300px;
+    height: auto;
 }
 
 
 /* End section-2 */
+
+
+/* Start section-3 */
+
+.hr1 {
+    margin-top: 60px;
+    color: rgba(37, 41, 41, 0.712);
+}
+
+section .sect-about {
+    background-color: rgba(37, 41, 41, 0.712);
+    color: rgb(129, 129, 129);
+}
+
+section .sect-about .sect-3-title {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 28px;
+    font-family: inherit;
+    font-weight: 100;
+}
+
+section .sect-about .sect-3-img {
+    padding: 50px 40px;
+}
+
+section .sect-about .sect-3-img img {
+    width: 940px;
+    height: auto;
+}
+
+section .sect-about .sect-3-para {
+    text-align: center;
+}
+
+section .sect-about .sect-3-para p {
+    padding: 40px 0;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+
+/* End section-3 */
+
+
+/* Start section-4 */
+
+.hr2 {
+    color: rgb(43, 46, 46);
+}
+
+section .sect-contact {
+    color: rgb(129, 129, 129);
+    background-color: rgb(43, 46, 46);
+}
+
+section .sect-contact .sect-4-title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section .sect-contact .sect-4-title h1 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+section .sect-contact .sect-4-para p {
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+section .sect-contact .sect-form {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+section .sect-contact .sect-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+section .sect-contact .sect-form .sect-form-1 input {
+    width: 350px;
+    height: 65px;
+    padding-left: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px 7px;
+    font-size: 20px;
+    outline: none;
+    font-weight: 100;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+section .sect-contact .sect-form .sect-form-2 input {
+    width: 350px;
+    height: 65px;
+    padding-left: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px 7px;
+    font-size: 20px;
+    outline: none;
+    font-weight: 100;
+}
+
+section .sect-contact .sect-form-area {
+    text-align: center;
+}
+
+section .sect-contact .sect-form-area textarea {
+    width: 720px;
+    height: 300px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px 7px;
+    padding: 20px 20px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+section .sect-contact .sect-4-btn {
+    text-align: center;
+    padding: 20px 0;
+}
+
+section .sect-contact .sect-4-btn input {
+    width: 250px;
+    height: 65px;
+    background-color: rgb(9, 85, 85);
+    border: none;
+    border-radius: 7px 7px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+
+/* End section-4 */
+
+
+/* Start footer */
+
+footer .foot-contact {
+    background-color: rgba(70, 70, 70, 0.836);
+    padding: 55px 0;
+}
+
+footer .foot-contact .foot-list-liens {
+    color: rgb(128, 126, 126);
+    text-align: center;
+    font-weight: 100;
+}
+
+footer .foot-contact .foot-list-liens .vertical1 {
+    margin: 0 5px;
+    border-left: 1px solid rgb(128, 126, 126);
+    display: inline-block;
+    height: 17px;
+}
+
+footer .foot-contact .foot-list-liens .vertical2 {
+    margin: 0 5px;
+    border-left: 1px solid rgb(128, 126, 126);
+    display: inline-block;
+    height: 17px;
+}
+
+footer .foot-contact .foot-list-liens a {
+    color: rgb(128, 126, 126)
+}
+
+
+/* End footer */
