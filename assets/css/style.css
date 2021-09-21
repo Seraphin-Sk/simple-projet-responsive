@@ -16,6 +16,9 @@ nav .nav-bar {
     display: flex;
     justify-content: space-between;
     background-color: rgb(5, 5, 5);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-bar .nav-tilte h3 {
@@ -106,15 +109,22 @@ nav .nav-bar {
 
 .sidebar {
     float: left;
-    height: 3475px;
+    height: auto;
     background: rgb(41, 45, 49);
     width: 20%;
+    position: fixed;
 }
 
 aside .asid-container {
     text-align: right;
-    padding: 40px 30px;
+    padding: 0 30px;
+    margin-top: 65px;
     color: white;
+}
+
+aside .asid-container .asid-img img {
+    width: 50px;
+    height: auto;
 }
 
 aside .asid-container .asid-title h4 {
@@ -134,8 +144,10 @@ aside .asid-container .asid-liens {
     padding: 70px 0;
 }
 
-aside .asid-container .asid-liens ul li {
+aside .asid-liens a {
     list-style: none;
+    display: block;
+    padding: 20px 0;
 }
 
 aside .asid-container .asid-liens a {
@@ -147,16 +159,12 @@ aside .asid-container .asid-liens a:hover {
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0.397);
     background-color: rgba(0, 0, 0, 0.397);
-    padding: 20px 50px;
-}
-
-aside .asid-container .asid-liens #fonte:hover {
-    color: indianred;
+    padding: 15px 45px;
 }
 
 aside .asid-container .asid-foot {
-    padding: 0 20px;
-    margin-top: 2900px;
+    padding: 27px 20px;
+    margin-top: 50px;
 }
 
 aside .asid-container .asid-foot a i {
@@ -506,3 +514,147 @@ footer .foot-contact .foot-list-liens a {
 
 
 /* End footer */
+
+
+/* Start media */
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+        height: 500px;
+    }
+    aside .asid-container {
+        text-align: left;
+    }
+    aside .asid-container .asid-foot {
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    nav .nav-bar {
+        width: 100%;
+    }
+    .sidebar {
+        height: 240px;
+    }
+    aside .asid-container .asid-liens {
+        text-align: right;
+        margin-top: -170px;
+    }
+    aside .asid-liens a {
+        display: inline;
+        padding: 20px 10px;
+    }
+    aside .asid-container .asid-liens a:hover {
+        border: 1px solid;
+        border-color: rgba(0, 0, 0, 0.397);
+        background-color: rgba(0, 0, 0, 0.397);
+        padding: 10px 20px;
+    }
+    aside .asid-container .asid-foot {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .main {
+        width: 100%;
+    }
+    section .sect-portfolio .select-img1 {
+        display: block;
+    }
+    section .sect-portfolio .select-img1 .sect-img-1 img {
+        margin-top: 10px;
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img1 .sect-phrase {
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img1 .sect-img-2 img {
+        margin-top: 10px;
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img1 .sect-img-3 img {
+        margin-top: 10px;
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 {
+        display: block;
+    }
+    section .sect-portfolio .select-img2 .sect-phrase {
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-img-4 img {
+        margin-top: 10px;
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-img-5 img {
+        margin-top: 10px;
+        width: 700px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-img-6 img {
+        margin-top: 10px;
+        width: 700px;
+        height: auto;
+    }
+    section .sect-about .sect-3-img img {
+        width: 690px;
+        height: auto;
+    }
+    section .sect-contact .sect-form {
+        padding: 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    nav .nav-bar {
+        width: 100%;
+        position: relative;
+    }
+    .nav-bar .nav-tilte h3 {
+        padding: 35px 20px;
+    }
+    .nav-bar .nav-btn .btn2 {
+        padding: 10px 20px;
+    }
+    .nav-bar .nav-btn .btn3 {
+        padding: 10px 63px;
+    }
+    .sidebar {
+        height: 200px;
+    }
+    aside .asid-container {
+        padding: 0 5px;
+        margin-top: 10px;
+    }
+    aside .asid-liens a {
+        padding: 20px 0;
+    }
+    aside .asid-container .asid-liens a:hover {
+        border: 1px solid;
+        border-color: rgba(0, 0, 0, 0.397);
+        background-color: rgba(0, 0, 0, 0.397);
+        padding: 5px 5px;
+    }
+    .main section .sect-intro .sect-para h3 {
+        font-size: 35px;
+        padding: 100px 10px;
+        line-height: 50px;
+    }
+    .main section .sect-intro .sect-para .ppp {
+        line-height: 30px;
+        margin: -70px 0;
+    }
+    .main section .sect-intro .sect-btn {
+        margin-top: 10px;
+    }
+}
