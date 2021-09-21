@@ -233,6 +233,10 @@ aside .asid-container .asid-foot a i {
 
 /* Start section-2*/
 
+section .sect-portfolio {
+    padding-bottom: 100px;
+}
+
 section .sect-portfolio .sect-title {
     text-align: center;
     margin: 100px 0;
@@ -332,11 +336,6 @@ section .sect-portfolio .select-img2 .sect-img-6 img {
 
 /* Start section-3 */
 
-.hr1 {
-    margin-top: 60px;
-    color: rgba(37, 41, 41, 0.712);
-}
-
 section .sect-about {
     background-color: rgba(37, 41, 41, 0.712);
     color: rgb(129, 129, 129);
@@ -376,13 +375,10 @@ section .sect-about .sect-3-para p {
 
 /* Start section-4 */
 
-.hr2 {
-    color: rgb(43, 46, 46);
-}
-
 section .sect-contact {
     color: rgb(129, 129, 129);
     background-color: rgb(43, 46, 46);
+    padding-bottom: 100px;
 }
 
 section .sect-contact .sect-4-title {
