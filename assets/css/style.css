@@ -514,6 +514,9 @@ footer .foot-contact .foot-list-liens a {
 
 /* Start media */
 
+
+/* responsive format ipad pro */
+
 @media only screen and (max-width: 1024px) {
     .main {
         width: 100%;
@@ -530,12 +533,16 @@ footer .foot-contact .foot-list-liens a {
     }
 }
 
+
+/* responsive format ipad pro */
+
 @media only screen and (max-width: 1024px) {
     nav .nav-bar {
         width: 100%;
     }
     .sidebar {
         height: 240px;
+        position: relative;
     }
     aside .asid-container .asid-liens {
         text-align: right;
@@ -552,7 +559,7 @@ footer .foot-contact .foot-list-liens a {
         padding: 10px 20px;
     }
     aside .asid-container .asid-foot {
-        margin-top: 35px;
+        margin-top: 0px;
         text-align: center;
     }
     .main {
@@ -563,20 +570,24 @@ footer .foot-contact .foot-list-liens a {
     }
     section .sect-portfolio .select-img1 .sect-img-1 img {
         margin-top: 10px;
+        margin-left: 130px;
         width: 700px;
         height: auto;
     }
     section .sect-portfolio .select-img1 .sect-phrase {
         width: 700px;
+        margin-left: 130px;
         height: auto;
     }
     section .sect-portfolio .select-img1 .sect-img-2 img {
         margin-top: 10px;
+        margin-left: 130px;
         width: 700px;
         height: auto;
     }
     section .sect-portfolio .select-img1 .sect-img-3 img {
         margin-top: 10px;
+        margin-left: 130px;
         width: 700px;
         height: auto;
     }
@@ -585,31 +596,38 @@ footer .foot-contact .foot-list-liens a {
     }
     section .sect-portfolio .select-img2 .sect-phrase {
         width: 700px;
+        margin-left: 130px;
         height: auto;
     }
     section .sect-portfolio .select-img2 .sect-img-4 img {
         margin-top: 10px;
+        margin-left: 130px;
         width: 700px;
         height: auto;
     }
     section .sect-portfolio .select-img2 .sect-img-5 img {
         margin-top: 10px;
+        margin-left: 130px;
         width: 700px;
         height: auto;
     }
     section .sect-portfolio .select-img2 .sect-img-6 img {
         margin-top: 10px;
+        margin-left: 130px;
         width: 700px;
         height: auto;
     }
     section .sect-about .sect-3-img img {
-        width: 690px;
+        width: 950px;
         height: auto;
     }
     section .sect-contact .sect-form {
-        padding: 30px 30px;
+        padding: 30px 155px;
     }
 }
+
+
+/* responsive format iphone 6/7/8 */
 
 @media only screen and (max-width: 420px) {
     nav .nav-bar {
@@ -652,5 +670,86 @@ footer .foot-contact .foot-list-liens a {
     }
     .main section .sect-intro .sect-btn {
         margin-top: 10px;
+    }
+    section .sect-portfolio .select-img1 .sect-img-1 img {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img1 .sect-phrase {
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img1 .sect-img-2 img {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img1 .sect-img-3 img {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-phrase {
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-img-4 img {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-img-5 img {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-portfolio .select-img2 .sect-img-6 img {
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 330px;
+        height: auto;
+    }
+    section .sect-about .sect-3-img img {
+        width: 350px;
+        height: auto;
+        margin-top: -40px;
+    }
+    section .sect-about .sect-3-para p {
+        margin-top: -60px;
+    }
+    section .sect-contact .sect-form {
+        line-height: 65px;
+        margin-left: -135px;
+        display: block;
+    }
+    section .sect-contact .sect-form .sect-form-1 input {
+        width: 380px;
+        height: 50px;
+    }
+     ::placeholder {
+        font-size: 18px;
+    }
+    section .sect-contact .sect-form .sect-form-2 input {
+        width: 380px;
+        height: 50px;
+    }
+    section .sect-contact .sect-form-area {
+        margin-top: -20px;
+    }
+    section .sect-contact .sect-form-area textarea {
+        width: 390px;
+        height: 200px;
+    }
+    section .sect-contact .sect-4-btn {
+        text-align: center;
+        margin-top: 50px;
     }
 }
